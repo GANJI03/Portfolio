@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Frist Portfolio Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Font Family and icon -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Main CSS by w3.css -->
+<link rel="stylesheet" href="w3.css">
+
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('images/tb.jpg');
+  min-height: 100%;
+}
+</style>
+</head>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>My Portfolio</b></h1>
+    <p>My Portfolio.</p>
+
+</header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">My Portfolio</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="images/img0-Kamen Rider.jpg" style="width:100%">
+        <img src="images/img1-Kamen Rider.jpg" style="width:100%">
+        <img src="images/img2-Kamen Rider.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="images/face.png" style="width:100%">
+        <img src="images/logo.png" style="width:100%">
+        <img src="images/Untitled-2.png" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <video width="800" height="315" controls>
+    <source src="woz meme.mp4" type="video/mp4">
+    <source src="woz meme.ogg" type="video/ogg">
+   </video><br><br>
+  
+   <video width="800" height="315" controls>
+    <source src="geiz zio meme.mp4" type="video/mp4">
+    <source src="geiz zio meme.ogg" type="video/ogg">
+   </video><br><br> 
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About Me</h2>
+    <hr class="w3-opacity">
+    <p>Editing,Graphic,Photo</p>
+    <h3 class="w3-padding-16">My Skills</h3>
+    <p class="w3-wide">Editing</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:40%">40%</div>
+    </div>
+    <p class="w3-wide">Graphic</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:30%">30%</div>
+    </div>
+    <p class="w3-wide">Photo</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:20%">20%</div>
+    </div><br>
+
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24">About My Idol</h3>
+    <img src="images/woz -_- meme.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Keisuke Watanabe.</span> IDOL.</p>
+    <p>“จงชื่นชมยินดี! ผู้สืบทอดพลังไรเดอร์ทั้งหมด ราชาแห่งกาลเวลาที่จะปกครองอดีตและอนาคต! นี่คือช่วงเวลาที่ Kamen Rider Zi-O ถือกำเนิดอย่างแท้จริง!”</p><br>
+   
+    <img src="images/ziogl.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Sougo Tokiwa.</span> IDOL.</p>
+    <p>วันหนึ่งหลังเลิกเรียน Sougo พบ Ridewatch ลึกลับและได้รับการเยี่ยมเยียนโดยผู้เผยพระวจนะชื่อWozซึ่งเตือนเขาถึงGeiz Myokoinผู้ซึ่งออกไปหาเลือดของ Sougo 
+      หลังจากได้รับการช่วยเหลือจากTsukuyomi Sougo ได้เรียนรู้เกี่ยวกับอนาคตที่หลีกเลี่ยงไม่ได้ของเขาในฐานะราชาปีศาจผู้ชั่วร้ายOhma Zi-O ตัดสินใจที่จะไม่ละทิ้งความฝันในการเป็นราชา 
+      เขากลายเป็น Kamen Rider Zi-O โดยอ้างว่าเขาจะกลายเป็น "ราชาปีศาจที่ยิ่งใหญ่ที่สุดและใจดีที่สุด" แทน</p><br>
+    
+    <img src="images/sento face scare.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Sento Kiryu.</span> IDOL.</p>
+    <p>Takumi Katsuragiเป็นนักวิจัย "นักวิทยาศาสตร์ของปีศาจ" ที่มีชื่อเสียงที่Touto Institute of Advanced Matter Physicsซึ่งร่วมกับพ่อของเขาShinobu Katsuragiมีส่วนร่วมในการสร้างProject Build
+ซึ่งเสร็จสมบูรณ์หลังจาก Takumi เข้าร่วมFaust อย่างไรก็ตาม แม้จะมีวัตถุประสงค์ของเฟาสท์ คัตสึรางิยังย้ำว่าจุดประสงค์หลักของ Project Build คือการต่อสู้กับเอโวลโตเอเลี่ยนซึ่งเขาค้นพบว่ากำลังปลอมตัวอยู่บนโลกในชื่อโซอิจิ 
+อิซูรุงิ เมื่อเผชิญหน้ากับเอเลี่ยน แผนการของคัตสึรางิก็ล้มเหลว และรูปลักษณ์ของเขาถูกเปลี่ยนโดยนักดนตรีทาโร่ ซาโต้. การลบความทรงจำของเขาด้วย Evolto 
+ได้ลักลอบนำ Katsuragi ออกจาก Faust และทำให้ดูเหมือนว่า "Sento Kiryu" เป็นเพียงคนหลงลืมที่พบในตรอกใกล้กับNascitaในวันที่ฝนตก</p><br>
+  
+<!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> สระบุรี, ไทย</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 09852512xx</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: sathianteam2547g@gmail.com</p>
+    </div>
+    
+    <!-- Image of location/map -->
+    <img src="images/zio woz.png" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
+   
+    <p>Lets get in touch. Send me a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+
+    <p class="w3-medium">Powered by <a href="#" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
